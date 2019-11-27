@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7C21285C-FBC9-4817-ACC2-06CF039A13A7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "235A9D20-06FC-486A-A5A4-1F760A494A01"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineShop/WineTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "WineTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "235A9D20-06FC-486A-A5A4-1F760A494A01 - a00314b00ed6d767"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineShop.WineTableViewCell.WineName.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "WineShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maximemagne/hogent/iosApplication/WineShop/WineShop/WineTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "235A9D20-06FC-486A-A5A4-1F760A494A01 - f6c9aa95406c2753"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineShop.WineTableViewCell.WineName.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "WineShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maximemagne/hogent/iosApplication/WineShop/WineShop/WineTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "235A9D20-06FC-486A-A5A4-1F760A494A01 - 400058a658cf3362"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineShop.WineTableViewCell.WineName.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "WineShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maximemagne/hogent/iosApplication/WineShop/WineShop/WineTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "235A9D20-06FC-486A-A5A4-1F760A494A01 - 67106ab272bfbfdf"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineShop.WineTableViewCell.WineName.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "WineShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maximemagne/hogent/iosApplication/WineShop/WineShop/WineTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "235A9D20-06FC-486A-A5A4-1F760A494A01 - c4266da5888ac0b3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineShop.WineTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; WineShop.WineTableViewCell"
+                  moduleName = "WineShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maximemagne/hogent/iosApplication/WineShop/WineShop/WineTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "258">
+               </Location>
+               <Location
+                  uuid = "235A9D20-06FC-486A-A5A4-1F760A494A01 - 59c8d3d5baaab7b4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineShop.WineTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;WineShop.WineTableViewCell&gt;"
+                  moduleName = "WineShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maximemagne/hogent/iosApplication/WineShop/WineShop/WineTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "195">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
