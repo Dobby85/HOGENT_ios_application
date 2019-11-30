@@ -12,6 +12,4 @@ struct SubTypeModel:Decodable {
     var id: Int
     var label: String
     var description: String
-    var dateCreated: String
-    var dateDeleted: String?
 }

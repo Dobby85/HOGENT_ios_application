@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 struct WineModel:Decodable {
     var id: Int
@@ -14,12 +15,6 @@ struct WineModel:Decodable {
     var description: String
     var image: String
     var year: Int
-    var isValid: Bool
-    var sellByMultipleOf: Int
-    var dateCreated: String
-    var dateDeleted: String?
-    var idSite: Int
     var price: Float
-    var type: TypeModel
     var subtype: SubTypeModel
 }
