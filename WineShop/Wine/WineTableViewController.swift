@@ -8,12 +8,11 @@
 
 import UIKit
 import CoreData
+import os.log
 
 class WineTableViewController: UITableViewController {
     
     var dataSource = WineDataSource()
-    
-    var wines = [WineModel]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +35,6 @@ class WineTableViewController: UITableViewController {
     func finishedLoadWines() {
         tableView.reloadData()
         refreshControl?.endRefreshing()
-        print("Goes here")
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -52,10 +50,32 @@ class WineTableViewController: UITableViewController {
 
         let currentWine = dataSource.getWines()[indexPath.row]
         
-        cell.WineImage.load(url: URL(string: "http://192.168.0.201:8080/image/\(currentWine.image)")!)
+        cell.WineImage.load(url: URL(string: "http://172.20.10.2:8080/image/\(currentWine.image)")!)
         cell.WineName.text = currentWine.subtype.label
         cell.WineDescription.text = currentWine.subtype.description
         cell.WinePrice.text = String(currentWine.price) + "€"
         return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        
+        switch segue.identifier ?? "" {
+        case "ShowDetail":
+            guard let wineDetailViewController = segue.destination as? WineDetailController else {
+                fatalError("Unexpected destination \(segue.destination)")
+            }
+            guard let selectedWineCell = sender as? WineTableViewCell else {
+                fatalError("Unexpected sender: \(String(describing: sender))")
+            }
+            guard let indexPath = tableView.indexPath(for: selectedWineCell) else {
+                fatalError("The selected cell is not being displayed in the table")
+            }
+
+            let selectedWine = dataSource.getWines()[indexPath.row]
+            wineDetailViewController.wine = selectedWine
+        default:
+            os_log("unknow identifier", log: OSLog.default, type: .debug)
+        }
     }
 }
