@@ -35,7 +35,6 @@ class WineTableViewController: UITableViewController {
     func finishedLoadWines() {
         tableView.reloadData()
         refreshControl?.endRefreshing()
-        print("Goes here")
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
