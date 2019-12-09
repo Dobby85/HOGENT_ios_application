@@ -15,7 +15,6 @@ extension UIImageView {
             if let data = try? Data.init(contentsOf: url) {
                 if let image = UIImage(data: data) {
                     DispatchQueue.main.async {
-                        print("SET IMAGE")
                         self?.image = image
                     }
                 }

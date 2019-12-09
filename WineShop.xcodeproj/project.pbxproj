@@ -21,6 +21,7 @@
 		283CE252238E3F5C0052A33C /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283CE251238E3F5C0052A33C /* UIImageViewExtension.swift */; };
 		285831C7238D2E60008EB451 /* WineDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285831C6238D2E60008EB451 /* WineDataSource.swift */; };
 		285831CD238D32A3008EB451 /* SubTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285831CC238D32A3008EB451 /* SubTypeModel.swift */; };
+		286D37C7239A2057002B7FAA /* WineDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D37C6239A2057002B7FAA /* WineDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		283CE251238E3F5C0052A33C /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		285831C6238D2E60008EB451 /* WineDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineDataSource.swift; sourceTree = "<group>"; };
 		285831CC238D32A3008EB451 /* SubTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTypeModel.swift; sourceTree = "<group>"; };
+		286D37C6239A2057002B7FAA /* WineDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2830E6AB238301F60040E3C2 /* WineTableViewController.swift */,
 				2830E6AD238303F80040E3C2 /* WineTableViewCell.swift */,
 				285831C6238D2E60008EB451 /* WineDataSource.swift */,
+				286D37C6239A2057002B7FAA /* WineDetailController.swift */,
 			);
 			path = Wine;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				281B49F923928E1200624532 /* wine.xcdatamodeld in Sources */,
+				286D37C7239A2057002B7FAA /* WineDetailController.swift in Sources */,
 				2830E6B1238305400040E3C2 /* WineModel.swift in Sources */,
 				2830E6AE238303F80040E3C2 /* WineTableViewCell.swift in Sources */,
 				2830E69C2382F79B0040E3C2 /* ViewController.swift in Sources */,

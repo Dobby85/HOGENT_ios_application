@@ -26,7 +26,7 @@ class WineDataSource : NSObject {
     func fetchWines () {
         if CheckInternet.isConnected() {
             DispatchQueue.global().async {
-                let urlString = "http://192.168.0.201:8080/product"
+                let urlString = "http://172.20.10.2:8080/product"
                 let session = URLSession.shared
                 let url = URL(string: urlString)!
                 var request = URLRequest(url: url)
