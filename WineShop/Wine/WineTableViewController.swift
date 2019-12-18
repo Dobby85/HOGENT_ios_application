@@ -50,7 +50,7 @@ class WineTableViewController: UITableViewController {
 
         let currentWine = dataSource.getWines()[indexPath.row]
         
-        cell.WineImage.load(url: URL(string: "http://172.20.10.2:8080/image/\(currentWine.image)")!)
+        cell.WineImage.load(url: URL(string: "http://hearthjs.io:8082/image/\(currentWine.image)")!)
         cell.WineName.text = currentWine.subtype.label
         cell.WineDescription.text = currentWine.subtype.description
         cell.WinePrice.text = String(currentWine.price) + "€"
