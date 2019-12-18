@@ -22,7 +22,7 @@ class WineDetailController: UIViewController {
         if let wine = wine {
             WineName.text = wine.subtype.label
             WineDescription.text = wine.subtype.description
-            WineImage.load(url: URL(string: "http://172.20.10.2:8080/image/\(wine.image)")!)
+            WineImage.load(url: URL(string: "http://hearthjs.io:8082/image/\(wine.image)")!)
             WinePrice.text = String(wine.price) + "€"
         }
     }
