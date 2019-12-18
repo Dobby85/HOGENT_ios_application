@@ -140,7 +140,7 @@
             </objects>
             <point key="canvasLocation" x="-2335.0446428571427" y="1433.3333333333335"/>
         </scene>
-        <!--Wine-->
+        <!--Wines-->
         <scene sceneID="7ry-R6-5VE">
             <objects>
                 <tableViewController id="vW0-Dz-OHV" customClass="WineTableViewController" customModule="WineShop" customModuleProvider="target" sceneMemberID="viewController">
@@ -210,27 +210,83 @@
                             <outlet property="delegate" destination="vW0-Dz-OHV" id="Jau-HB-xsl"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Wine" image="bookmark.fill" catalog="system" id="1Kq-t2-0nC"/>
+                    <tabBarItem key="tabBarItem" title="Wines" image="bookmark.fill" catalog="system" id="1Kq-t2-0nC"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ygj-Y1-ThS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2333.3333333333335" y="742.63392857142856"/>
         </scene>
-        <!--Item 1-->
+        <!--Profile-->
         <scene sceneID="6XA-gr-CU1">
             <objects>
                 <viewController id="zaz-nQ-xk9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RAY-Ww-SXB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="u3e-Cj-0kR">
+                                <rect key="frame" x="16" y="76" width="382" height="272.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sx4-7K-iCm">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="36"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCC-4h-dII">
+                                                <rect key="frame" x="113.5" y="0.0" width="155" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="bjh-j0-7Td">
+                                        <rect key="frame" x="0.0" y="81" width="382" height="111.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Firstname: Jean" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hT-ZK-Ebh">
+                                                <rect key="frame" x="0.0" y="0.0" width="121.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lastname: Dupont" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaX-c7-TM3">
+                                                <rect key="frame" x="0.0" y="45.5" width="140.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mail: jean.dupont@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6K-tV-YX0">
+                                                <rect key="frame" x="0.0" y="91" width="224.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WdT-1q-PWC">
+                                        <rect key="frame" x="0.0" y="237.5" width="382" height="35"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59e-st-34h">
+                                                <rect key="frame" x="174.5" y="0.0" width="33" height="35"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <state key="normal" title="Edit"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="OUL-9a-cIY" firstAttribute="trailing" secondItem="u3e-Cj-0kR" secondAttribute="trailing" constant="16" id="B7Q-Pf-dh0"/>
+                            <constraint firstItem="u3e-Cj-0kR" firstAttribute="leading" secondItem="OUL-9a-cIY" secondAttribute="leading" constant="16" id="DeA-Xo-TVQ"/>
+                            <constraint firstItem="u3e-Cj-0kR" firstAttribute="top" secondItem="OUL-9a-cIY" secondAttribute="top" constant="32" id="YUn-1u-CAB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="OUL-9a-cIY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="mwY-H3-x9x"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" id="mwY-H3-x9x"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zAM-XD-b8d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-896" y="751"/>
+            <point key="canvasLocation" x="-897.10144927536237" y="750.66964285714278"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="PQ4-Rt-FKM">
@@ -268,5 +324,6 @@
     </scenes>
     <resources>
         <image name="bookmark.fill" catalog="system" width="56" height="64"/>
+        <image name="person.fill" catalog="system" width="64" height="60"/>
     </resources>
 </document>
